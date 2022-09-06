@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.main-container {
+	padding: 0 2rem;
+}
+
+.main-body {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.main-article {
+	width: 640px;
+}
+
+.section--headline {
+	border: 1px solid #ececec;
+	border-radius: 0.5rem;
+}
+
+.section--headline-top .item-desc {
+	min-height: 210px;
+}
+
+.item-desc {
+	padding: 0 1.5rem 1.5rem 1.5rem;
+	position: relative;
+	line-height: 1.4;
+}
+
+.item-img {
+	width: 100%;
+	background-color: var(--color-border);
+	position: relative;
+	display: block;
+	overflow: hidden;
+	border-radius: 0.5rem;
+}
+
+.item-img img {
+	object-fit: cover;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.item--headline {
+	position: relative;
+	overflow: hidden;
+}
+
+figure {
+	margin: 0 0 1rem;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.item-desc-time {
+	margin-top: 0.25rem;
+	font-size: 12px;
+	color: var(--color-gray);
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 0.25rem;
+}
+
+.item-desc-title {
+	font-weight: 900;
+	font-size: 28px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.item-desc-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.section--headline-thumbs {
+	padding: 1.5rem 0;
+	margin: 0 1.5rem;
+	border-top: 1px solid;
+	border-color: #ececec;
+}
+
+.section-title {
+	margin-bottom: 1rem;
+	font-family: var(--font-prompt);
+	font-weight: 700;
+	font-style: italic;
+	font-size: 16px;
+	margin: 0;
+}
+
+/* !! SECTION BERITA LAINNYA !!  */
+
+.section--infscroll {
+	margin-top: 3rem;
+}
+
+.section--infscroll:first-of-type .articles:first-of-type {
+	border-top: 0;
+	padding-top: 0;
+}
+
+.articles--text {
+	padding-top: 1.6rem;
+	border-top: 1px solid #ececec;
+}
+
+.item--text-img {
+	width: 300px;
+	max-height: max-content;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.item--img img {
+	object-fit: cover;
+}
+
+.item--text {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	position: relative;
+	overflow: hidden;
+}
+
+.item--desc-child {
+	padding-left: 1rem;
+	position: relative;
+	line-height: 1.4;
+}
+
+.item--desc-header {
+	margin-bottom: 0.25rem;
+	font-size: 10px;
+	/* line-height: 1.4; */
+}
+
+.item--desc-tag {
+	margin-right: 0.25rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.item--desc-time {
+	color: var(--color-gray);
+	display: inline-block;
+	vertical-align: top;
+}
+
+.item--desc-title {
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+.item--desc-title,
+.item--desc-text {
+	font-size: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
