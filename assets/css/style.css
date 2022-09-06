@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.nav-logo {
+	padding: 26px 0px 10px 98px !important;
+}
+.btn-outline-success {
+	border: none !important;
+	position: relative;
+	right: 45px;
+}
+
+form {
+	padding: 10px 31px 10px 0px;
+}
+.form-control {
+	width: 285px !important;
+	font-family: Lato;
+	font-size: 12px !important;
+}
+.menu-news {
+	padding: 18px 223px;
+	margin: -33px 0px;
+}
+
+.list-news {
+	padding: 0px 0px 0px 0px;
+}
+li {
+	display: inline;
+	font-size: 12px;
+	font-weight: 600px;
+	line-height: 18px;
+	margin-right: 12.5px;
+	font-family: prompt;
+}
+.vektor-1 {
+	position: relative;
+	right: 14px;
+}
+.list-right {
+	position: relative;
+	left: 78px;
+}
+
+.line-1 {
+	width: 938px;
+	position: absolute;
+	bottom: 24.83%;
+	right: 14.79%;
+	left: 229px;
+	height: 1px;
+	top: 112px;
+	background-color: #e5e5e5;
+}
+.list-news-2 {
+	margin: 0px;
+	padding: 10px 0px;
+}
+.list-p {
+	font-family: prompt;
+	font-size: 11px;
+	line-height: 17px;
+	font-weight: 500px !important;
+	color: #000000;
+	font-style: normal;
+}
+
+.breaking-box-img {
+	position: relative;
+	z-index: 1;
+}
+
+.breaking-box {
+	background-color: #ca0000;
+	width: 878px;
+	height: 40px;
+	position: absolute;
+	top: 157px;
+	left: 264px;
+	border-bottom-right-radius: 15px;
+}
+.breaking-p {
+	color: white;
+	font-family: Lato;
+	font-size: 12px;
+	line-height: 14.4px;
+	font-weight: 700px;
+	padding-top: 15px;
+	height: 14px;
+	left: 13.4%;
+	right: 1.08%;
+	top: calc(40% - 6px / 2);
+}
+
+/* Iklan-1 */
+.iklan-1 {
+	padding: 30px 331px;
+}
