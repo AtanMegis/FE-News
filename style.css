@@ -1,0 +1,50 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.owl-dots {
+	display: none;
+}
+
+.owl-nav .owl-prev {
+	position: absolute;
+	left: -10px;
+	bottom: 60px;
+	top: 0;
+	background-color: none;
+}
+
+.owl-nav .owl-next {
+	position: absolute;
+	right: -10px;
+	bottom: 60px;
+	top: 0;
+	background-color: none;
+}
+
+.owl-carousel .owl-item img {
+	border-radius: 15px;
+	position: relative;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+	background: none;
+}
+
+.sliderContent {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	padding: 0px 10px;
+}
+
+.time {
+	color: grey;
+	font-size: 12px;
+	padding: 10px 0;
+}
+
+.desc {
+	font-size: 16px;
+	font-weight: bold;
+}
