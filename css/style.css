@@ -1,28 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-.breaking-box-img {
-	position: relative;
-	z-index: 1;
-	top: 157px;
-	left: 130px;
-}
-.breaking-box {
-	background-color: #ca0000;
-	width: 878px;
-	height: 40px;
-	position: absolute;
-	top: 157px;
-	left: 264px;
-	border-bottom-right-radius: 15px;
-}
-.breaking-p {
-	color: white;
-	font-family: Lato;
-	font-size: 12px;
-	line-height: 14.4px;
-	font-weight: 700px;
-	padding-top: 15px;
-	height: 14px;
-	left: 13.4%;
-	right: 1.08%;
-	top: calc(40% - 6px / 2);
+/* Iklan-1 */
+.Adds-on {
+	padding: 30px 331px;
 }
