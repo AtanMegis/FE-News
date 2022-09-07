@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Lato:wght@700&display=swap');
+
+.border-top {
+	position: relative;
+	bottom: 11px;
+	left: 234px;
+}
+
+.content-global {
+	padding-top: 10px;
+}
+
+.img-content-global-1 {
+	position: relative;
+	left: 236px;
+}
+.img-content-global-2,
+.img-content-global-3 {
+	position: relative;
+	right: 12px;
+}
+.content-global-ul {
+	padding: 15px 0px 0px 232px;
+}
+.button-global {
+	border: none;
+	background-image: url(/assets/img/img-3.png);
+	width: 255px;
+	height: 144px;
+	position: relative;
+	right: 12px;
+	opacity: 0.5;
+}
+
+.li-global,
+.li-global-2 {
+	display: inline;
+	margin-right: 10px;
+	font-family: Lato;
+	letter-spacing: 0.4px;
+	line-height: 12px;
+}
+.li-global-2 {
+	font-weight: 400px !important;
+	color: #999999;
+}
+.p-global {
+	padding: 0px 0px 0px 232px;
+	font-family: Lato;
+}
+span {
+	color: #ca0000;
+}
