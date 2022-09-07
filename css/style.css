@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-/* Iklan-1 */
-.Adds-on {
-	padding: 30px 331px;
+
+.avatar-credit-container {
+	padding: 34px 0px 0px 217px;
+}
+.credit-p-1 {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 14px;
+
+	color: #000000;
+}
+
+.credit-p-2 {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+
+	color: #000000;
+}
+.p-grey {
+	color: #999999;
 }
