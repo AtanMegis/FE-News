@@ -1,38 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
 
-.red-breaking {
-	background-color: #ca0000;
-	z-index: -2;
-	position: absolute;
-	top: 10px;
-	height: 35px;
-	width: 270px;
-}
-.img-news {
-	position: absolute;
-	top: 10px;
-	z-index: -1;
-}
-.p-news {
-	position: absolute;
-	top: 20px;
-	left: 15px;
-	font-family: 'Prompt';
-	font-style: italic;
-	font-weight: 600;
-	font-size: 10px;
-	line-height: 15px;
-
-	color: #ffffff;
-}
-.p-news-2 {
-	font-family: 'Lato';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 12px;
-	line-height: 14px;
-	display: flex;
-	align-items: flex-end;
-	color: #ffffff;
+.banner-container-mobile {
+	padding: 460px 0px 0px 27px;
 }
